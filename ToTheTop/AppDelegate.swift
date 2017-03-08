@@ -9,7 +9,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let window = Window()
     let point = Screen.topCenterPoint(for: window)
 
-    window.backgroundColor = NSColor.green
     window.setFrameOrigin(point)
     window.ignoresMouseEvents = true
     window.orderFront(nil)
