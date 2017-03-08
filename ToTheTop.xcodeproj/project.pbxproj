@@ -12,6 +12,7 @@
 		BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD051E706D2200015C3B /* MainMenu.xib */; };
 		BDFD53201E709F4400BAF534 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD531F1E709F4400BAF534 /* Window.swift */; };
 		BDFD53221E70A02F00BAF534 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD53211E70A02F00BAF534 /* Screen.swift */; };
+		BDFD53241E70AEBB00BAF534 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD53231E70AEBB00BAF534 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BD1BBD081E706D2200015C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDFD531F1E709F4400BAF534 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		BDFD53211E70A02F00BAF534 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		BDFD53231E70AEBB00BAF534 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BD1BBD081E706D2200015C3B /* Info.plist */,
 				BDFD531F1E709F4400BAF534 /* Window.swift */,
 				BDFD53211E70A02F00BAF534 /* Screen.swift */,
+				BDFD53231E70AEBB00BAF534 /* Keyboard.swift */,
 			);
 			path = ToTheTop;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1BBD021E706D2200015C3B /* AppDelegate.swift in Sources */,
+				BDFD53241E70AEBB00BAF534 /* Keyboard.swift in Sources */,
 				BDFD53201E709F4400BAF534 /* Window.swift in Sources */,
 				BDFD53221E70A02F00BAF534 /* Screen.swift in Sources */,
 			);
