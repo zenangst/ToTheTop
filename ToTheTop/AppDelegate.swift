@@ -6,8 +6,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   var window: NSWindow?
 
   func applicationDidFinishLaunching(_ notification: Notification) {
-    window = NSWindow()
-    window?.styleMask = [.borderless]
-    window?.makeKeyAndOrderFront(nil)
+    let window = Window()
+    let point = Screen.topCenterPoint(for: window)
+
+    window.backgroundColor = NSColor.green
+    window.setFrameOrigin(point)
+    window.makeKeyAndOrderFront(nil)
+
+    self.window = window
   }
 }

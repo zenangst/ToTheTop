@@ -10,6 +10,8 @@
 		BD1BBD021E706D2200015C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BBD011E706D2200015C3B /* AppDelegate.swift */; };
 		BD1BBD041E706D2200015C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD031E706D2200015C3B /* Assets.xcassets */; };
 		BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD051E706D2200015C3B /* MainMenu.xib */; };
+		BDFD53201E709F4400BAF534 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD531F1E709F4400BAF534 /* Window.swift */; };
+		BDFD53221E70A02F00BAF534 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD53211E70A02F00BAF534 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		BD1BBD031E706D2200015C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1BBD061E706D2200015C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BD1BBD081E706D2200015C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFD531F1E709F4400BAF534 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		BDFD53211E70A02F00BAF534 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				BD1BBD031E706D2200015C3B /* Assets.xcassets */,
 				BD1BBD051E706D2200015C3B /* MainMenu.xib */,
 				BD1BBD081E706D2200015C3B /* Info.plist */,
+				BDFD531F1E709F4400BAF534 /* Window.swift */,
+				BDFD53211E70A02F00BAF534 /* Screen.swift */,
 			);
 			path = ToTheTop;
 			sourceTree = "<group>";
@@ -131,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1BBD021E706D2200015C3B /* AppDelegate.swift in Sources */,
+				BDFD53201E709F4400BAF534 /* Window.swift in Sources */,
+				BDFD53221E70A02F00BAF534 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				BD1BBD0D1E706D2200015C3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
