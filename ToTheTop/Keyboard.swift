@@ -6,4 +6,13 @@ enum Key: Int {
 }
 
 struct Keyboard {
+
+  static func sendEvent(key: Key) {
+    guard let event = CGEvent.init(keyboardEventSource: nil,
+                             virtualKey: .init(key.rawValue),
+                             keyDown: true) else {
+                              return
+    }
+    event.post(tap: .cghidEventTap)
+  }
 }
