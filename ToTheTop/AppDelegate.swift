@@ -18,6 +18,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       guard window.frame.contains(event.locationInWindow) else {
         return
       }
+
+      Keyboard.sendEvent(key: .homeKey)
     }
 
     self.window = window
