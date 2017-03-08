@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		BD1BBD021E706D2200015C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BBD011E706D2200015C3B /* AppDelegate.swift */; };
 		BD1BBD041E706D2200015C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD031E706D2200015C3B /* Assets.xcassets */; };
-		BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD051E706D2200015C3B /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD1BBCFE1E706D2200015C3B /* ToTheTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToTheTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1BBD011E706D2200015C3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1BBD031E706D2200015C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD1BBD061E706D2200015C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BD1BBD081E706D2200015C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +50,6 @@
 			children = (
 				BD1BBD011E706D2200015C3B /* AppDelegate.swift */,
 				BD1BBD031E706D2200015C3B /* Assets.xcassets */,
-				BD1BBD051E706D2200015C3B /* MainMenu.xib */,
 				BD1BBD081E706D2200015C3B /* Info.plist */,
 			);
 			path = ToTheTop;
@@ -119,7 +116,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1BBD041E706D2200015C3B /* Assets.xcassets in Resources */,
-				BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,17 +131,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BD1BBD051E706D2200015C3B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD1BBD061E706D2200015C3B /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BD1BBD091E706D2200015C3B /* Debug */ = {
@@ -285,6 +270,7 @@
 				BD1BBD0D1E706D2200015C3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
