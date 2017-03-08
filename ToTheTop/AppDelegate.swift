@@ -12,6 +12,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     window.backgroundColor = NSColor.green
     window.setFrameOrigin(point)
     window.makeKeyAndOrderFront(nil)
+    window.ignoresMouseEvents = true
 
     self.window = window
   }
