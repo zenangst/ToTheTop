@@ -10,7 +10,6 @@ class Window: NSWindow {
               backing: .buffered,
               defer: false)
 
-    styleMask = .borderless
     level = Int(CGWindowLevelForKey(CGWindowLevelKey.overlayWindow))
   }
 }

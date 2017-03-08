@@ -11,7 +11,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     window.backgroundColor = NSColor.green
     window.setFrameOrigin(point)
-    window.makeKeyAndOrderFront(nil)
+    window.ignoresMouseEvents = true
+    window.orderFront(nil)
+
+    NSEvent.addGlobalMonitorForEvents(matching: .leftMouseUp) { (event) in
+      guard window.frame.contains(event.locationInWindow) else {
+        return
+      }
+    }
 
     self.window = window
   }
