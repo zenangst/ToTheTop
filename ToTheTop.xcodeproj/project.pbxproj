@@ -47,11 +47,12 @@
 		BD1BBCF51E706D2200015C3B = {
 			isa = PBXGroup;
 			children = (
-				BD31C717210F90C200284ACF /* Podfile */,
-				BD1BBD001E706D2200015C3B /* ToTheTop */,
-				BD1BBCFF1E706D2200015C3B /* Products */,
-				CCAD9756149266E6E6CBAB62 /* Pods */,
 				C18D13BA9724787C8FED3A34 /* Frameworks */,
+				BD31C717210F90C200284ACF /* Podfile */,
+				CCAD9756149266E6E6CBAB62 /* Pods */,
+				BD1BBCFF1E706D2200015C3B /* Products */,
+				BD31C719210F918400284ACF /* Resources */,
+				BD1BBD001E706D2200015C3B /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,18 +64,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD1BBD001E706D2200015C3B /* ToTheTop */ = {
+		BD1BBD001E706D2200015C3B /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				BD1BBD011E706D2200015C3B /* AppDelegate.swift */,
-				BD1BBD031E706D2200015C3B /* Assets.xcassets */,
-				BD1BBD051E706D2200015C3B /* MainMenu.xib */,
-				BD1BBD081E706D2200015C3B /* Info.plist */,
 				BDFD531F1E709F4400BAF534 /* Window.swift */,
 				BDFD53211E70A02F00BAF534 /* Screen.swift */,
 				BDFD53231E70AEBB00BAF534 /* Keyboard.swift */,
 			);
-			path = ToTheTop;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BD31C719210F918400284ACF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD1BBD031E706D2200015C3B /* Assets.xcassets */,
+				BD1BBD051E706D2200015C3B /* MainMenu.xib */,
+				BD1BBD081E706D2200015C3B /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C18D13BA9724787C8FED3A34 /* Frameworks */ = {
@@ -328,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E23HUP39A3;
-				INFOPLIST_FILE = ToTheTop/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenangst.ToTheTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E23HUP39A3;
-				INFOPLIST_FILE = ToTheTop/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenangst.ToTheTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
