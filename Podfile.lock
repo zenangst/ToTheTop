@@ -1,0 +1,16 @@
+PODS:
+  - Vaccine (0.4.2)
+
+DEPENDENCIES:
+  - Vaccine
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Vaccine
+
+SPEC CHECKSUMS:
+  Vaccine: 8dfe4c67cde227e3c3cfb2c29fca31693fb9f9bf
+
+PODFILE CHECKSUM: ac13d98241668a6b95e84556b0483b64114eb15a
+
+COCOAPODS: 1.5.3

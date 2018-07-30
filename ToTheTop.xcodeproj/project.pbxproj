@@ -10,20 +10,26 @@
 		BD1BBD021E706D2200015C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BBD011E706D2200015C3B /* AppDelegate.swift */; };
 		BD1BBD041E706D2200015C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD031E706D2200015C3B /* Assets.xcassets */; };
 		BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1BBD051E706D2200015C3B /* MainMenu.xib */; };
+		BD31C718210F90C200284ACF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD31C717210F90C200284ACF /* Podfile */; };
 		BDFD53201E709F4400BAF534 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD531F1E709F4400BAF534 /* Window.swift */; };
 		BDFD53221E70A02F00BAF534 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD53211E70A02F00BAF534 /* Screen.swift */; };
 		BDFD53241E70AEBB00BAF534 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD53231E70AEBB00BAF534 /* Keyboard.swift */; };
+		ED52238214B0BC0D1CD9415A /* libPods-ToTheTop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932EF4DC0E5077CE1DE07E5 /* libPods-ToTheTop.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		255D739F70902AC6440B1F17 /* Pods-ToTheTop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToTheTop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToTheTop/Pods-ToTheTop.release.xcconfig"; sourceTree = "<group>"; };
+		3932EF4DC0E5077CE1DE07E5 /* libPods-ToTheTop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToTheTop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1BBCFE1E706D2200015C3B /* ToTheTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToTheTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1BBD011E706D2200015C3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1BBD031E706D2200015C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1BBD061E706D2200015C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BD1BBD081E706D2200015C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD31C717210F90C200284ACF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		BDFD531F1E709F4400BAF534 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		BDFD53211E70A02F00BAF534 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		BDFD53231E70AEBB00BAF534 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		D5F93D56DCB7DB8B0DE01FE2 /* Pods-ToTheTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToTheTop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToTheTop/Pods-ToTheTop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED52238214B0BC0D1CD9415A /* libPods-ToTheTop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +47,11 @@
 		BD1BBCF51E706D2200015C3B = {
 			isa = PBXGroup;
 			children = (
+				BD31C717210F90C200284ACF /* Podfile */,
 				BD1BBD001E706D2200015C3B /* ToTheTop */,
 				BD1BBCFF1E706D2200015C3B /* Products */,
+				CCAD9756149266E6E6CBAB62 /* Pods */,
+				C18D13BA9724787C8FED3A34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +77,23 @@
 			path = ToTheTop;
 			sourceTree = "<group>";
 		};
+		C18D13BA9724787C8FED3A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3932EF4DC0E5077CE1DE07E5 /* libPods-ToTheTop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCAD9756149266E6E6CBAB62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5F93D56DCB7DB8B0DE01FE2 /* Pods-ToTheTop.debug.xcconfig */,
+				255D739F70902AC6440B1F17 /* Pods-ToTheTop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD1BBD0B1E706D2200015C3B /* Build configuration list for PBXNativeTarget "ToTheTop" */;
 			buildPhases = (
+				6D0046AC2D799C4EB7856972 /* [CP] Check Pods Manifest.lock */,
 				BD1BBCFA1E706D2200015C3B /* Sources */,
 				BD1BBCFB1E706D2200015C3B /* Frameworks */,
 				BD1BBCFC1E706D2200015C3B /* Resources */,
@@ -94,13 +122,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Christoffer Winterkvist";
 				TargetAttributes = {
 					BD1BBCFD1E706D2200015C3B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = E23HUP39A3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -127,12 +160,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD31C718210F90C200284ACF /* Podfile in Resources */,
 				BD1BBD041E706D2200015C3B /* Assets.xcassets in Resources */,
 				BD1BBD071E706D2200015C3B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D0046AC2D799C4EB7856972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToTheTop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD1BBCFA1E706D2200015C3B /* Sources */ = {
@@ -169,15 +224,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -218,15 +281,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -252,6 +323,7 @@
 		};
 		BD1BBD0C1E706D2200015C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F93D56DCB7DB8B0DE01FE2 /* Pods-ToTheTop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -266,6 +338,7 @@
 		};
 		BD1BBD0D1E706D2200015C3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255D739F70902AC6440B1F17 /* Pods-ToTheTop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
